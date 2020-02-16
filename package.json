@@ -1,12 +1,24 @@
 {
   "name": "getpipe",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "npm package to get piped data for cli tools.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"pipe test\" | node test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "cli",
+    "pipe",
+    "tool"
+  ],
+  "author": "Nir Adler",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niradler/getpipe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niradler/getpipe/issues"
+  },
+  "homepage": "https://github.com/niradler/getpipe#readme"
 }
